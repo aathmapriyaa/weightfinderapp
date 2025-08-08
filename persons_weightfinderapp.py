@@ -13,5 +13,5 @@ model.fit(x,y)
 print("Coefficients:", model.coef_)
 print("Intercept:", model.intercept_)
 
-print(model.predict([[25,2,3,170]]))  # Example input for prediction
+print(model.predict([[25,2,3,170]]))  
 
